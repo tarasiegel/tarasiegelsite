@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Dorsa);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Dorsa', sans-serif;
+}
+.header {
+	font-size: 50px;
+	text-transform: uppercase;
+	display: flex;
+	text-align: center;
+	padding: 50px 50px;
+}
+.header-option {
+	margin-left: 30px;
+	font-weight: lighter;
+	width: 100%;
+}
