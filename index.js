@@ -8,6 +8,10 @@ app.get('/', function(req, res){
   res.sendFile(__dirname + '/index.html');
 });
 
+app.get('/about', function(req, res){
+  res.sendFile(__dirname + '/public/about.html');
+});
+
 http.listen(3000, function(){
   console.log('listening on *:3000');
 });
