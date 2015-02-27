@@ -8,11 +8,11 @@ $(document).ready(function() {
 
 function headerAnimation() {
 	var controller = $.superscrollorama();
-	controller.addTween('#scrollPoint',
+	controller.addTween('#scroll-point',
 	    (new TimelineLite())
 	    .append([
 	      // Move Entire Logo
-	      TweenMax.fromTo($('#tsLogo'), .5,
+	      TweenMax.fromTo($('#ts-logo'), .5,
 	        {
 	        	css:{ top: '-29px' },
 	        	ease:Quad.easeInOut,
@@ -23,7 +23,7 @@ function headerAnimation() {
 	        	ease:Quad.easeInOut
 	        }),
 	      // Move Logo Background
-	      TweenMax.fromTo($('#logoDiamond'), .5,
+	      TweenMax.fromTo($('#logo-diamond'), .5,
 	        {
 	        	css:{ scale: 1 },
 	        	ease:Expo.easeOut,
@@ -34,7 +34,7 @@ function headerAnimation() {
 	        }),
 
 	      // Move Inside Logo Graphic
-	      TweenMax.fromTo($('#logoBig'), .25,
+	      TweenMax.fromTo($('#logo-big'), .25,
 	        {
 	        	css:{opacity: 1},
 	        	immediateRender:true
@@ -43,7 +43,7 @@ function headerAnimation() {
 	        	css:{opacity: 0}
 	        }),
 	      // Move TS
-	      TweenMax.fromTo($('#logoSmall'), .4,
+	      TweenMax.fromTo($('#logo-small'), .4,
 	        {
 	        	css:{ opacity: 0 },
 	        	ease:Expo.easeInOut,
