@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.11.1",
-    "swig": "^1.4.2"
+    "swig": "^1.4.2",
+    "ejs": "^1.0.0"
   }
 }
