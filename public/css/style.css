@@ -142,11 +142,17 @@ html, body {
 	color: #511F5C;
 }
 
-.about-symbols{
+.about-buttons {
+  display: inline-block;
+  width: 100%;
+  padding-left: 30%;
+}
+
+.about-symbols {
 	padding: 10px 0 0 20px;
 }
 
-.about-symbols#first{
+.about-symbols#first {
 	padding-top: 10px;
 }
 
