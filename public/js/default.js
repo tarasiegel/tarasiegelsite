@@ -14,12 +14,12 @@ function headerAnimation() {
 	      // Move Entire Logo
 	      TweenMax.fromTo($('#ts-logo'), .5,
 	        {
-	        	css:{ top: '-29px' },
+	        	css:{ top: '-32px' },
 	        	ease:Quad.easeInOut,
 	        	immediateRender:true
 	        },
 	        {
-	        	css:{ top: '-75px' },
+	        	css:{ top: '-64px' },
 	        	ease:Quad.easeInOut
 	        }),
 	      // Move Logo Background
