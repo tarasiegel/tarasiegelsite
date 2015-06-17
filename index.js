@@ -20,6 +20,10 @@ app.get('/about', function(req, res){
   res.render('pages/about');
 });
 
+app.get('/art', function(req, res){
+  res.render('pages/art');
+});
+
 http.listen(3000, function(){
   console.log('listening on *:3000');
 });
