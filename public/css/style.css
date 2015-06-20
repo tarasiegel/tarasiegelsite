@@ -113,10 +113,9 @@ html, body {
 
 #container {
 	margin: 104px auto 0px;
-	width: 90%;
 }
 
-#about-info .container {
+#about-container {
 	width: 750px;
 	margin-left: auto;
 	margin-right: auto;
@@ -168,14 +167,15 @@ html, body {
 
 ul#art-grid {
 	list-style: none;
+	font-family: 'Helvetica';
 	font-size: 0px;
-	margin-left: -2.5%;
+	margin-left: -1.5%;
 }
 
 ul#art-grid li{
 	display: inline-block;
 	padding: 10px;
-	margin: 0 0 2.5% 2.5%;
+	margin: 0 0 2.5% 1.5%;
 	background: #fff;
 	border: 1px solid #ddd;
 	font-size: 16px;
@@ -196,7 +196,6 @@ ul#art-grid li h3 {
 
 ul#art-grid li p {
 	font-size: .9em;
-	line-height: 1.5em;
 	color: #999;
 }
 
@@ -205,10 +204,24 @@ ul#art-grid.columns-2 li {
 }
 
 ul#art-grid.columns-3 li {
-	width: 27.83%;
+	width: 28%;
 }
 
 ul#art-grid.columns-4 li {
 	width: 22.5%;
 }
 
+@media only screen and (max-width: 730px) {
+	.right-nav {
+		display: none;
+	}
+	.left-nav {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 615px) {
+	ul#art-grid.columns-3 li {
+		width: 40%;
+	}
+}

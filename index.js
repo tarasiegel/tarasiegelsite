@@ -21,7 +21,7 @@ app.get('/about', function(req, res){
 });
 
 app.get('/art', function(req, res){
-  res.render('pages/art');
+  res.render('pages/art', {data: ''});
 });
 
 http.listen(3000, function(){
