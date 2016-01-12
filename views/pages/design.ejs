@@ -1,0 +1,28 @@
+<!-- views/pages/index.ejs -->
+<!doctype html>
+<html>
+	<head>
+		<% include ../partials/head %>
+	</head>
+	<body>
+		<header>
+			<% include ../partials/navbar %>
+		</header>
+		<div class="container" class="container art">
+			<div class="page-header art">
+				<h2 class="art-title">Design and Art</h2>
+			</div>
+	     	<ul class="art-grid columns-3">
+	     		<% designData.forEach(function(proj) { %>
+        			<li>
+						<img src="../../img/<%= proj.url %>">
+					</li>
+		        <% }); %>
+		    </ul>
+	    </div>
+
+	    <footer>
+	    	<% include ../partials/footer %>
+	    </footer>
+	</body>
+</html>

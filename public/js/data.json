@@ -1,0 +1,36 @@
+{
+	"design" : {
+		"lovers_and_madmen" : {
+			"name" : "Coffee Shop Model",
+			"url" : "design/loversAndMadmenFinal_COMPOSITE.png",
+			"description" : ""
+		},
+
+		"windmark" : {
+			"name" : "Beach House Model",
+			"url" : "design/miniMayaPic4.png",
+			"description" : ""
+		},
+
+		"telephone" : {
+			"name" : "Telephone Model",
+			"url" : "design/telephonerender1.jpg",
+			"description" : ""
+		},
+
+		"rush_flyers" : {
+			"name" : "Theta Tau Rush Flyers",
+			"url" : "design/thetatauposter2.jpg",
+			"description" : "",
+			"additional_images" : "https://www.dropbox.com/s/pax9755k5xppd2q/thetatauposter.png?dl=0"
+		},
+
+		"on_my_way" : {
+			"name" : "Hackathon Logo",
+			"url" : "design/OnMyWayApp.png",
+			"description" : ""
+		}
+
+	}
+
+}

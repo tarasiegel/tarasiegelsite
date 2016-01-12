@@ -1,35 +1,31 @@
 <!-- views/partials/navbar.ejs -->
-<nav id="header">
-    <div id="main-nav">
-      <ul id="main-nav-list">
-        <li class="main-nav-art left-nav">
+<nav class="header">
+    <div class="main-nav">
+      <div class="ts-logo"  href="/">
+        <a href="/" >
+          <img class="logo-big" href="/" src="img/giraffe1.svg">
+        </a>
+      </div>
+      <ul class="main-nav-list">
+        <!-- <li class="main-nav-art left-nav ">
           <a href="/art">art</a>
-        </li>
-        <li class="main-nav-design left-nav">
-          <a href="/art">design</a>
+        </li> -->
+        <li class="main-nav-about right-nav first">
+          <a href="/about">about</a>
         </li>
         <li class="main-nav-code left-nav">
           <a href="/code">code</a>
         </li>
-        <li>
-          <div id="ts-logo"  href="/">
-            <a href="/" >
-              <img id="logo-big" href="/" src="img/logoBig.png" style="opacity: 0;">
-              <img id="logo-diamond" href="/" src="img/diamond.png" style="-webkit-transform: scale(0.5, 0.5);">
-              <img id="logo-small" class="img-responsive" src="img/logoSmall.png">
-            </a>
-          </div>
+        <li class="main-nav-design left-nav">
+          <a href="/design">art &amp; design</a>
         </li>
         <!--<li class="right-nav ">
           <a href="http://tara-siegel-blog.herokuapp.com">blog</a>
         </li>-->
-        <li class="main-nav-about right-nav">
-          <a href="/about">about</a>
-        </li>
         <li class="main-nav-contact right-nav">
          <a href="/contact">contact</a>
         </li>
-        <li class="main-nav-resume right-nav">
+        <li class="main-nav-resume right-nav last">
            <a href="resume_tarasiegel.pdf" value="Download as PDF" target="_blank">resume</a>
         </li>
       </ul>
