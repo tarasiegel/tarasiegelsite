@@ -108,24 +108,28 @@ html, body {
 }
 
 .about-container {
-	width: 71%;
-	padding-bottom: 15px;
-    margin: 0 auto 25px;
-    background-color: #fff;
+	width: 91%;
+    padding-bottom: 15px;
+    margin: 5% auto;
 }
 
 .about-photo {
-	width: 50%;
-    margin: 0 auto;
+	width: 40%;
+    float: left;
 }
 
 .about-photo img {
 	width: 100%;
 }
 
+.about-text-container {
+	width: 57%;
+    float: right;
+}
+
 .about-text {
-    padding: 15px 15px 0px;
-    font: 16px/19px Helvetica;
+    padding: 0 15px;
+    font: 17px/28px Helvetica;
     color: #615c60;
 }
 
@@ -142,14 +146,19 @@ html, body {
 }
 
 .about-buttons {
-	display: inline-block;
-    float: right;
-    margin-right: 20px;
-    margin-top: 20px;
+    width: 408px;
+    margin: 10px auto 0;
+    position: relative;
+}
+
+.about-buttons a {
+	display: inline-flex;
 }
 
 .about-symbols {
 	padding: 10px 0 0 20px;
+	width: 48px !important;
+    height: 48px;
 }
 
 .about-symbols.first {
