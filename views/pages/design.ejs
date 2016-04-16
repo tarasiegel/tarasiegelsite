@@ -4,17 +4,14 @@
 	<head>
 		<% include ../partials/head %>
 	</head>
-	<body>
+	<body class="page__design">
 		<header>
 			<% include ../partials/navbar %>
 		</header>
 		<div class="container" class="container art">
-			<div class="page-header art">
-				<h2 class="art-title">Design and Art</h2>
-			</div>
 	     	<ul class="art-grid columns-3">
 	     		<% designData.forEach(function(proj) { %>
-        			<li>
+        			<li class="porfolio-item">
 						<img src="../../img/<%= proj.url %>">
 					</li>
 		        <% }); %>

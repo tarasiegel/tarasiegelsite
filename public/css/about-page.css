@@ -1,0 +1,96 @@
+.about-info {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.about-photo {
+	width: 47%;
+	padding: 20px 0 0 20px;
+    float: left;
+}
+
+.about-photo img {
+	width: 100%;
+}
+
+.about-text--container {
+	width: 50%;
+    float: right;
+}
+
+.about-text {
+    padding: 0 15px;
+    font: 17px/28px Helvetica;
+    color: #615c60;
+}
+
+.about-text--leadin {
+	font: 30px/40px Helvetica;
+	font-style: italic;
+	color: black;
+}
+
+.about-text a {
+	color: #511F5C;
+}
+
+.about-text p {
+	margin-bottom: 0;
+}
+
+.about-text .about-text-large {
+	font-size: 25px;
+}
+
+.about-buttons {
+    position: relative;
+    width: 40%;
+    float: left;
+    padding-left: 20px;
+}
+
+.about-buttons a {
+	display: inline-flex;
+}
+
+.first-about-symbols {
+	padding-left: 0;
+}
+
+.about-symbols {
+	padding: 10px 0 0 15px;
+	width: 40px !important;
+    height: 40px;
+}
+
+
+@media only screen and (max-width: 860px) {
+	.about-buttons {
+	    margin-right: 10px;
+    	margin-top: 10px;
+	}
+	.about-buttons img {
+		width: 35px;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	.about-info {
+		max-width: 100%;
+	}
+
+	.about-photo {
+		width: calc(100% - 40px);
+		padding: 20px;
+	}
+	.about-buttons {
+		width: 100%;
+		margin-right: auto;
+	}
+
+	.about-text--container {
+	    width: calc( 100% - 20px);
+	    margin-left: 10px;
+	    float: initial;
+	}
+}
