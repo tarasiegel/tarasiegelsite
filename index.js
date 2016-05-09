@@ -17,10 +17,10 @@ swig.setDefaults({ cache: false });
 var jsonObj = require("./public/js/data.json");
 
 var designData = jsonObj.design;
-var designData = Object.keys(designData).map(function (key) {return designData[key]});
+var designData = Object.keys(designData).map(function (key) { return designData[key] });
 
-var codeData = jsonObj.design;
-var codeData = Object.keys(designData).map(function (key) {return designData[key]});
+var codeData = jsonObj.codeProjects;
+var codeData = Object.keys(codeData).map(function (key) { return codeData[key] });
 
 // Parse.initialize("7TmB0Eg1i2GPrE6wYAhzCjyeTAUeu7HhcKTawhSk", "1zg8wOld5UyYXqozyTcIIkZI8yWwY0MlT7cH2G6q");
 

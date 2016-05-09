@@ -31,6 +31,32 @@
 			"description" : ""
 		}
 
-	}
+	},
 
+	"codeProjects" : {
+		"runs" : {
+			"name" : "Runs",
+			"img_url" : "code/runs_square.png",
+			"url" : "http://www.tarasiegel.com/runs",
+			"description" : ""
+		},
+
+		"wellbeing" : {
+			"name" : "Well Being",
+			"img_url" : "code/well_square.png",
+			"url" : "http://www.tarasiegel.com/wellbeing",
+			"description" : ""
+		},
+
+		"wics" : {
+			"name" : "Wics",
+			"img_url" : "code/wics_square.png",
+			"url" : "http://www.tarasiegel.com/wics",
+			"description" : ""
+
+		}
+	}
 }
+
+
+

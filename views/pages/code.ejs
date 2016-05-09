@@ -12,7 +12,9 @@
 	     	<ul class="art-grid columns-3">
 	     		<% codeData.forEach(function(proj) { %>
         			<li>
-						<img src="../../img/<%= proj.url %>">
+        				<a href="<%= proj.url %>" target="_blank">
+							<img src="../../img/<%= proj.img_url %>">
+						</a>
 					</li>
 		        <% }); %>
 		    </ul>

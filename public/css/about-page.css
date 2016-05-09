@@ -14,14 +14,15 @@
 }
 
 .about-text--container {
-	width: 50%;
+	width: 49%;
     float: right;
 }
 
 .about-text {
     padding: 0 15px;
-    font: 17px/28px Helvetica;
+    font: 16px/25px Helvetica;
     color: #615c60;
+    border-left: 1px solid rgba(0, 0 ,0, .2);
 }
 
 .about-text--leadin {
@@ -42,39 +43,47 @@
 	font-size: 25px;
 }
 
-.about-buttons {
-    position: relative;
-    width: 40%;
-    float: left;
-    padding-left: 20px;
+.contact-list {
+    width: 47%;
+    display: table-cell;
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.about-buttons a {
-	display: inline-flex;
+.contact-list-item:first-of-type {
+    border-top: 1px solid rgba(0, 0 ,0, .2);
 }
 
-.first-about-symbols {
-	padding-left: 0;
+.contact-list-item {
+    padding: 10px 10px;
+    border-bottom: 1px solid rgba(0, 0 ,0, .2);
 }
 
-.about-symbols {
-	padding: 10px 0 0 15px;
-	width: 40px !important;
-    height: 40px;
+
+.contact-list-item a {
+    text-decoration: none;
+    color: #646464;
+    font-style: italic;
 }
+
+
+.contact-list-item a:hover {
+   color: black;
+}
+
 
 
 @media only screen and (max-width: 860px) {
-	.about-buttons {
-	    margin-right: 10px;
-    	margin-top: 10px;
-	}
-	.about-buttons img {
-		width: 35px;
-	}
 }
 
 @media only screen and (max-width: 730px) {
+
+	.container {
+	    padding-top: 55px;
+	}
+
 	.about-info {
 		max-width: 100%;
 	}
@@ -83,9 +92,9 @@
 		width: calc(100% - 40px);
 		padding: 20px;
 	}
-	.about-buttons {
-		width: 100%;
-		margin-right: auto;
+
+	.about-text {
+		border-left: none;
 	}
 
 	.about-text--container {

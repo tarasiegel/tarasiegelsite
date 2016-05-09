@@ -95,7 +95,7 @@
 
 @media only screen and (max-width: 730px) {
 	.header {
-		height: 70px;
+		height: 55px;
 	}
 
 	.main-nav {
@@ -107,9 +107,23 @@
 	    font-size: 26px;
 	    padding-top: 8px;
 	}
+
+	.ts-logo {
+	    top: 30px;
+	    position: relative;
+	    float: initial;
+	    text-align: center;
+	}
+
+	.logo-big {
+	    width: 50px;
+	    left: 0;
+	}
+
 	.right-nav {
 		display: none;
 	}
+
 	.left-nav {
 		display: none;
 	}

@@ -8,12 +8,8 @@ html, body {
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-* {
-    transition: all .5s ease;
-}
-
 .container {
-	padding-top: 120px;
+	padding-top: 90px;
 	margin: 0 auto;
 }
 
@@ -42,6 +38,21 @@ html, body {
      content: " ";
      clear: both;
      height: 0;
+}
+
+.bottom-picture {
+    width: 200px;
+    height: 192px;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    position: absolute;
+}
+
+@media only screen and (max-width: 730px) {
+	.container {
+	    padding-top: 85px;
+	}
 }
 
 
