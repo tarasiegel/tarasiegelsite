@@ -34,26 +34,33 @@
 	},
 
 	"codeProjects" : {
-		"runs" : {
-			"name" : "Runs",
-			"img_url" : "code/runs_square.png",
-			"url" : "http://www.tarasiegel.com/runs",
-			"description" : ""
-		},
 
 		"wellbeing" : {
 			"name" : "Well Being",
 			"img_url" : "code/well_square.png",
 			"url" : "http://www.tarasiegel.com/wellbeing",
-			"description" : ""
+			"written_in" : "javascript, python, html, css, d3 js",
+			"code_base_url" : "https://github.com/tarasiegel/well-being",
+			"description" : "Missing until dinner time sleep on dog bed, force dog to sleep on floor put butt in owner's face yet lick plastic bags poop in the plant pot. Meowing non stop for food hide from vacuum cleaner. Run outside as soon as door open refuse to drink water except out of someone's glass kitty power! thinking longingly about tuna brine leave dead animals as gifts spit up on light gray carpet instead of adjacent linoleum. Knock dish off table head butt cant eat out of my own dish tuxedo cats always looking dapper scratch leg; meow for can opener to feed me cat snacks attack the dog then pretend like nothing happened. Thug cat."
 		},
 
 		"wics" : {
 			"name" : "Wics",
 			"img_url" : "code/wics_square.png",
 			"url" : "http://www.tarasiegel.com/wics",
-			"description" : ""
+			"written_in" : "javascript, css, dimple js",
+			"code_base_url" : "https://github.com/tarasiegel/women-in-tech",
+			"description" : "Eat owner's food. Kitty power! eat owner's food for eat a plant, kill a hand yet hunt anything that moves wake up human for food at 4am. Eat owner's food. Claw drapes stare at the wall, play with food and get confused by dust destroy couch as revenge lick sellotape lick butt, for give attitude. Hide from vacuum cleaner run outside as soon as door open thug cat poop in litter box, scratch the walls cats go for world domination so nap all day. Nap all day stick butt in face, or leave dead animals as gifts, but chase after silly colored fish toys around the house dream about hunting birds. Inspect anything brought into the house gnaw the corn cob cat is love, cat is life. stares at human while pushing stuff off a table attack dog, run away and pretend to be victim so meowzer! tuxedo cats always looking dapper poop in the plant pot, thinking longingly about tuna brine."
 
+		},
+
+		"runs" : {
+			"name" : "Runs",
+			"img_url" : "code/runs_square.png",
+			"url" : "http://www.tarasiegel.com/runs",
+			"written_in" : "javascript, python, html, css, dimple js",
+			"code_base_url" : "https://github.com/tarasiegel/run-landscape",
+			"description" : "Scratch leg; meow for can opener to feed me. Attack feet spread kitty litter all over house sleep in the bathroom sink yet stand in front of the computer screen, so lay on arms while you're using the keyboard. Sleep nap. Sun bathe plan steps for world domination and poop on grasses sun bathe, so make muffins, play time howl uncontrollably for no reason. Jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed."
 		}
 	}
 }
