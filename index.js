@@ -12,8 +12,6 @@ swig.setDefaults({ cache: false });
 app.set('view cache', false);
 swig.setDefaults({ cache: false });
 
-
-
 var jsonObj = require("./public/js/data.json");
 
 var designData = jsonObj.design;
@@ -36,7 +34,6 @@ var codeData = Object.keys(codeData).map(function (key) { return codeData[key] }
 // 		console.log("Error: " + error.code + " " + error.message);
 // 	}
 // });
-
 
 app.get('/', function(req, res){
   res.render('pages/index');

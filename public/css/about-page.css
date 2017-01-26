@@ -76,13 +76,10 @@
 
 
 @media only screen and (max-width: 860px) {
+	
 }
 
 @media only screen and (max-width: 730px) {
-
-	.container {
-	    padding-top: 55px;
-	}
 
 	.about-info {
 		max-width: 100%;
