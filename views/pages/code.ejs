@@ -11,9 +11,9 @@
 		<div class="container" class="container code">
 	     	<ul class="portfolio__list">
 	     		<% codeData.forEach(function(proj) { %>
-        			<li class="clearfix">
-        				<a href="<%= proj.url %>" target="_blank">
-							<span class="img" style="background-image:url(../../img/<%= proj.img_url %>)"></span>
+        			<li class="portfolio__item item-closed clearfix">
+        				<a class="portfolio__img-container js-portfolio-item" target="_blank">
+							<img class="portfolio__img" src="../../img/<%= proj.img_url %>" />
 						</a>
 						<div class="description__container">
 							<h1 class="description__title">
