@@ -1,35 +1,62 @@
-{
+ {
 	"design" : {
 		"lovers_and_madmen" : {
 			"name" : "Coffee Shop Model",
-			"url" : "design/loversAndMadmenFinal_COMPOSITE.png",
+			"url" : "../../img/design/loversAndMadmenFinal_COMPOSITE.png",
 			"description" : ""
 		},
-
+		"lovers_and_madmen_2" : {
+			"name" : "Coffee Shop Model",
+			"url" : "http://www.tarasiegel.com/images/modeling/loversAndMadmenFinal3_COMPOSITE.png",
+			"description" : ""
+		},
 		"windmark" : {
 			"name" : "Beach House Model",
-			"url" : "design/miniMayaPic4.png",
+			"url" : "http://www.tarasiegel.com/images/modeling/seagullLanding1.png",
 			"description" : ""
 		},
-
+		"windmark_2" : {
+			"name" : "Beach House Model",
+			"url" : "http://www.tarasiegel.com/images/modeling/seagullLanding2.png",
+			"description" : ""
+		},
 		"telephone" : {
 			"name" : "Telephone Model",
-			"url" : "design/telephonerender1.jpg",
+			"url" : "../../img/design/telephonerender1.jpg",
 			"description" : ""
 		},
-
 		"rush_flyers" : {
 			"name" : "Theta Tau Rush Flyers",
-			"url" : "design/thetatauposter2.jpg",
+			"url" : "../../img/design/thetatauposter2.jpg",
 			"description" : "",
 			"additional_images" : "https://www.dropbox.com/s/pax9755k5xppd2q/thetatauposter.png?dl=0"
 		},
-
+		"rush_flyer_2" : {
+			"name" : "Theta Tau Rush Flyers",
+			"url" : "http://www.tarasiegel.com/images/graphicDesign/rushFlyerF13.png",
+			"description" : ""
+		},
 		"on_my_way" : {
 			"name" : "Hackathon Logo",
-			"url" : "design/OnMyWayApp.png",
+			"url" : "../../img/design/OnMyWayApp.png",
+			"description" : ""
+		},
+		"self_portrait" : {
+			"name" : "Self Portrait 3D Model",
+			"url" : "http://www.tarasiegel.com/images/modeling/selfportrait.jpg",
+			"description" : ""
+		},
+		"horse_shoe_crab" : {
+			"name" : "Horseshoe Crab 3D Model",
+			"url" : "http://www.tarasiegel.com/images/modeling/horseshoecrab1.jpg",
+			"description" : ""
+		},
+		"typography_self_portrait" : {
+			"name" : "Self Portrait",
+			"url" : "http://www.tarasiegel.com/images/graphicDesign/facetwo.jpg",
 			"description" : ""
 		}
+
 
 	},
 
